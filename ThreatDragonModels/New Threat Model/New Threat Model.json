@@ -2,15 +2,35 @@
   "version": "2.6.1",
   "summary": {
     "title": "New Threat Model",
-    "owner": "",
-    "description": "",
+    "owner": "Dev Team",
+    "description": "This is a system designed as a part of the project and reviewed by the security architect",
     "id": 0
   },
   "detail": {
-    "contributors": [],
-    "diagrams": [],
-    "diagramTop": 2,
-    "reviewer": "",
+    "contributors": [
+      {
+        "name": "product owner"
+      },
+      {
+        "name": "developers"
+      },
+      {
+        "name": "security architect"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 2,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.1",
+        "cells": []
+      }
+    ],
+    "diagramTop": 3,
+    "reviewer": "Security Architect",
     "threatTop": 0
   }
 }
